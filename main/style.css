@@ -1,0 +1,131 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      display: flex;
+      align-items: center;
+      /* background-color: #fff; */
+      padding: 10px 20px;
+      /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      margin-right: auto;
+    }
+    .logo img {
+      height: 100px;
+      margin-right: 10px;
+      width: 500px;
+    }
+    .logo span {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+    .nav-links a {
+      text-decoration: none;
+      margin-left: 40px;
+      color: orange;
+      font-weight: 800;
+      font-size: 20px;
+    }
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+    
+      
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* margin: 20px; */
+            background: linear-gradient(to right, #001f3f, #003366);
+            color: white;
+            padding: 25px 10px;
+            
+        }
+        h2 {
+          text-align: center;
+          color: #fff;
+          font-size: 35px;
+          margin-left: 70px;
+        }
+        
+        .card {
+            background-color: white;
+            color: #333;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            width:270px;
+            height: 170px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+        }
+        .card img {
+            width: 70px;
+            height: 70px;
+        }
+        .earn {
+            font-size: 14px;
+            color: #555;
+            padding-top: 0px;
+        }
+        nav {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: orange;
+
+        }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #fff;
+    }
+    h2 {
+      text-align: center;
+      color: #003366;
+    }
+    .highlight {
+      color: orange;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+      font-size: 22px;
+      color: #003366;
+    }
+    .grid-item {
+      text-align: center;
+      font-size: 19px;
+      display: inline-block;
+     overflow: hidden;
+     border-radius: 30px;
+    }
+    .grid-item img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      margin-bottom: 8px;
+      border-radius: 30px;
+    }
+  
+    button {
+        color: blue;
+    }
+    .card h3{
+        font-size: 25px;
+        
+    }
+    
